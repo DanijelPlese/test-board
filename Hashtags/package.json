@@ -1,0 +1,21 @@
+{
+  "name": "hashtags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "findHashtags.js",
+  "dependencies": {
+    "@babel/core": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "dotenv": "^8.2.0",
+    "express-rate-limit": "^5.2.3",
+    "node-fetch": "^2.6.1",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
