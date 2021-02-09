@@ -7,9 +7,14 @@ const pull = require("./pulls")
 
 const y = (async () => {
 
-  const urlPull = pull.flat().map(i => i.contentUrl)
+  const urlPull = pull.flat().map(i => {
+    return {
+      contentUrl: i.contentUrl,
+      url: i.url
+    }
+  })
 
-  //console.log(urlPull);
+  console.log(urlPull);
 
   urlPull.forEach(async (i) => {
     let url = i.contentUrl;
@@ -24,10 +29,13 @@ const y = (async () => {
     const body = [];
 
     const result = await fetch(url, options);
+    //console.log(result)
+    body.push({
+      textBody: await result.text(),
+      url: i.contentUrl,
+    })
 
-    console.log(result)
-
-
+    console.log(body)
 
   })
 
