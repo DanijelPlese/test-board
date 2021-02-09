@@ -1,54 +1,42 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
+const { get } = require("http");
 require("dotenv").config();
-const http = require("http");
-var fileUrl = require("file-url");
+const pull = require("./pulls")
 
-/*
-console.log("prije");
 
-const content =  fs.readFileSync('./newFile.txt', "utf8");
+const y = (async () => {
 
-console.log(content)
+  const urlPull = pull.flat().map(i => i.contentUrl)
 
-console.log("poslije");
-*/
+  //console.log(urlPull);
 
-const x = (async () => {
-  let lastPullRequestUrl =
-    "https://api.github.com/repos/crocoder-dev/monorepo/pulls?state=all&page=1&per_page=100";
-  let optionsOfLast = {
-    method: "GET",
-    headers: {
-      Accept: "application/vnd.github.v3.raw+json",
-      Authorization: process.env.AUTH,
-    },
-  };
+  urlPull.forEach(async (i) => {
+    let url = i.contentUrl;
+    let options = {
+      method: "GET",
+      headers: {
+        Accept: "application/vnd.github.v3.raw+json",
+        Authorization: process.env.AUTH,
+      },
+    }
 
-  const responseOfLast = await fetch(lastPullRequestUrl, optionsOfLast);
+    const body = [];
 
-  const dataOfLast = await responseOfLast.json();
+    const result = await fetch(url, options);
 
-  const lastPullRequests = await dataOfLast.map((i) => i.number);
+    console.log(result)
 
-  const lastPrNumber = await lastPullRequests.slice(0, 1);
 
-  const pages = Array.from(
-    { length: Math.ceil(lastPrNumber / 100) },
-    (_, n) => n + 1
-  );
 
-  const arrayToIterate = [];
+  })
 
-  for (i = 0; i < pages.length; i++) {
-    arrayToIterate.push({
-      url: `https://api.github.com/repos/crocoder-dev/monorepo/pulls?state=all&page=${pages[i]}&per_page=100`,
-      page: pages[i],
-    });
-  }
+  
+  //.log(pull.contentUrl)
 
-  arrayToIterate.forEach(async (i) => {
-    let ul = i.url;
+  /*
+  pull.forEach(async (i) => {
+    let uls = i.contentUrl;
     let options = {
       method: "GET",
       headers: {
@@ -57,36 +45,25 @@ const x = (async () => {
       },
     };
 
-    const response = await fetch(ul, options);
+    //console.log(uls)
+    const body = [];
+    //const response = await fetch(uls, options);
 
-    const data = await response.json();
-    const refs = await data.map((t) => {
-      return {
-        contentUrl: t.patch_url,
-        url: t.url,
-      };
-    });
+    //console.log(response)
 
-    //console.log(refs);
-    const changedHashtags = [];
+    /*
+    body.push({
+      textBody: await responses.text(),
+      url: i.contentUrl,
+    })
 
-    refs.forEach(async (i) => {
-      let uls = i.contentUrl;
-      let options = {
-        method: "GET",
-        headers: {
-          Accept: "application/vnd.github.v3.raw+json",
-          Authorization: process.env.AUTH,
-        },
-      };
-      const responses = await fetch(uls, options);
-      const body = await responses.text();
+    //console.log(body);
+    const matchFor = /([+-]?hashtags: [^\n]*(\n+))/g; //nalazi "+hashtags:" i "-hashtags:" - uz ostatak reda
 
-      console.log(body)
+    //fs.appendFile("./file.json", JSON.stringify(body.flat(), null, 2));
 
-    });
-
-
+    //console.log(body)
   });
-  
+
+*/
 })();
