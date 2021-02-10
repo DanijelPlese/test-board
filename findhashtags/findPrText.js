@@ -32,6 +32,6 @@ const y = (async () => {
     });
 
     console.log(body);
-    fs.appendFileSync("./data2.json", JSON.stringify(body.flat(), null, 2));
+    fs.appendFileSync("./data1.json", JSON.stringify(body, null, 2));
   });
 })();

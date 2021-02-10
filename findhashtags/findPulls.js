@@ -58,12 +58,11 @@ const x = (async () => {
       };
     });
 
-    console.log(refs) // [{}...100...{}][{}...100...{}][{}...75...{}]
-
+    //console.log(refs) // [{}...100...{}][{}...100...{}][{}...75...{}]
 
     //console.log(uniRefs)
 
-    //console.log(refs)
+    console.log(refs)
     refs.forEach(async (i) => {
       let uls = i.contentUrl;
       let options = {
@@ -73,46 +72,6 @@ const x = (async () => {
           Authorization: process.env.AUTH,
         },
       };
-
-      //console.log(uls)
-      const body = [];
-      //const responses = await fetch((uls, options));
-      /*
-      body.push({
-        textBody: await responses.text(),
-        url: i.contentUrl,
-      })
-*/
-      //console.log(body);
-      const matchFor = /([+-]?hashtags: [^\n]*(\n+))/g; //nalazi "+hashtags:" i "-hashtags:" - uz ostatak reda
-
-      //fs.appendFile("./file.json", JSON.stringify(body.flat(), null, 2));
-
-      //console.log(body)
     });
-
-    /*//v2 
-    const refs = await data.forEach(async (t) => {
-      let uls = t.patch_url;
-      let options = {
-        method: "GET",
-        headers: {
-          Accept: "application/vnd.github.v3.raw+json",
-          Authorization: process.env.AUTH,
-        },
-      };
-      //console.log(uls) //prints all patch_url
-      const responses = await fetch(uls, options);
-      //console.log(responses); //prints response {...}, {...}....
-      const body = await responses.text();
-      //console.log(body); //prints all text from patch_url
-      return {
-        contentUrl: t.patch_url,
-        url: t.url,
-
-      }
-    });
-*/
-    //console.log(refs); //prints undefined ???
   });
 })();
