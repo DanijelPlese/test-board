@@ -3,7 +3,6 @@ const data = require("./data1.json"); // [{"textBody", "url"},{...},{...}]
 
 const z = (async () => {
   const allDataPR = data
-    .flat()
     .map((i) => {
       const searchFor = /([+]hashtags: [^\n]*(\n+))/g;
       return {
@@ -11,8 +10,7 @@ const z = (async () => {
         url: i.url,
       };
     })
-    .filter((i) => i.hashtags !== null)
-    .filter((i) => i.hashtags.length === 2)
+    .filter((i) => i.hashtags !== null && i.hashtags.length === 2)
     .map((i) => {
       return {
         original: i.hashtags[0]
@@ -23,31 +21,38 @@ const z = (async () => {
         edited: i.hashtags[1]
           .replace(/[+]hashtags: "/g, "")
           .replace(/"\n/g, "")
+          .replace(/\n/g, "")
+          .replace(/##/g, "#")
+          .replace(/ #/g, "#")
+          .replace(/"#/g, "#")
+          .replace(/\"/g, "")
           .split(",")
           .sort(),
         url: i.url,
       };
-    }); //343 pulls
+    })
+    .map((i) => {
+      return {
+        keep: i.edited.filter((x) => !new Set(i.original).has(x)),
+      };
+    })
+    .filter((i) => i.keep.length > 0);
 
-  const originalTags = allDataPR.map((i) => i.original);
-  const editedTags = allDataPR.map((i) => i.edited);
+  const result = allDataPR
+    .map(({ keep }) => keep)
+    .sort()
+    .flat();
 
-  allDataPR.forEach((i) => {
-    let oriArr = i.original;
-    let ediArr = i.edited;
-    let url = i.url;
+  const hashtags = [].concat(result).sort();
 
-    const myKeep = ediArr;
-    const toRemove = new Set(oriArr);
-
-    const difference = myKeep.filter((x) => !toRemove.has(x));
-
-    if(difference.length > 0) {
-      console.log(difference)
+  const uniqueHashtag = [];
+  hashtags.forEach((h) => {
+    if (!uniqueHashtag.includes(h)) {
+      uniqueHashtag.push(h);
     }
-
-    //console.log(difference);
   });
 
-  //console.log(allDataPR);
+  console.log(uniqueHashtag);
+
+  fs.appendFileSync("./allAdded.txt", JSON.stringify(uniqueHashtag, null, 2));
 })();
