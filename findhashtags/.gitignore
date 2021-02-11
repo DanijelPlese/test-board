@@ -1,0 +1,6 @@
+node_modules
+.env*
+pulls.json
+data1.json
+data2.json
+hashtags.json
