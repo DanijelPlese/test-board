@@ -16,18 +16,15 @@ const z = (async () => {
     .filter((i) => i.hashtags.length === 2)
     .map((i) => {
       return {
-        original: i.hashtags[0],
-        edited: i.hashtags[1],
+        original: i.hashtags[0].replace(/[+]hashtags: "/g, '').replace(/"\n/g, '').split(','),
+        edited: i.hashtags[1].replace(/[+]hashtags: "/g, '').replace(/"\n/g, '').split(','),
         url: i.url,
       };
     }); //343 pulls
 
-/*
-    allDataPR.forEach(i => {
-      i.original.value.replaceAll(/+hashtags: "/g, '')
-    })
-*/
-  console.log(allDataPR);
+    
 
-  //const searchFor = /([+-]?hashtags: [^\n]*(\n+))/g;
+
+  console.log(originals);
+
 })();
