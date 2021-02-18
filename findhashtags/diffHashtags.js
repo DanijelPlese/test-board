@@ -2,6 +2,11 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 require("dotenv").config();
 
+if("./arrObj.json" === true) {
+  const content = require("./arrObj.json");
+}
+
+
 const x = (async () => {
   let lastPullRequestUrl =
     "https://api.github.com/repos/crocoder-dev/monorepo/pulls?state=all&page=1&per_page=100";
@@ -55,6 +60,8 @@ const x = (async () => {
       };
     });
 
+
+    
     refs.forEach(async (i) => {
       let uls = i.contentUrl;
       let options = {
@@ -74,7 +81,7 @@ const x = (async () => {
         url: i.contentUrl,
       });
 
-      const allAddedHashtags = await body
+      const allAddedHashtags = body
         .map((i) => {
           const searchFor = /([+]hashtags: [^\n]*(\n+))/g;
           return {
@@ -108,28 +115,49 @@ const x = (async () => {
             keep: i.edited.filter((x) => !new Set(i.original).has(x)),
             url: i.url,
           };
-        }).filter((i) => i.keep.length !== 0)
+        });
 
+      const toString = JSON.stringify(Object.assign(allAddedHashtags.flat()));
+      //  const toString = JSON.stringify(allAddedHashtags).replace(/\]\[/g, ',');
+
+       // const jsonObject = JSON.parse(toString)
+
+       // console.log(jsonObject)
         
-        /*
+      if (toString.length > 79) {
+        //console.log(toString)
+        const arrOfDiff = [];
+        arrOfDiff.push(toString);
+        
+        const arrObj = JSON.parse(arrOfDiff);
+        //console.log(arrObj);
+        //fs.appendFileSync("./arrObj.json", JSON.stringify(arrObj, null, 1));
+      }
+
+      /*
+        .filter( i => i.length > 0)
         .map(({ keep }) => keep)
         .sort()
         .flat();
     */
-      const hashtags = [].concat(allAddedHashtags).sort();
-    
-      const uniqueHashtag = [];
-      hashtags.forEach((h) => {
-        if (!uniqueHashtag.includes(h)) {
-          uniqueHashtag.push(h);
-        }
-      });
-    
-      console.log(uniqueHashtag);
-
-
-      //console.log(allAddedHashtags);
     });
-    //fs.appendFileSync("./data1.json", JSON.stringify(refs, null, 2));
+    
   });
+console.log(arrayToIterate)
+/*
+  const allContent = [];
+
+  allContent.push(JSON.stringify(content))
+  //console.log(allContent)
+  allContent.split("][").map(i => {
+    return {
+      keep: i.keep,
+      url: i.url
+    }
+  })
+  console.log(allContent)
+*/
+// replace(/\]\[/g, ',')
+
+
 })();
