@@ -60,18 +60,7 @@ const x = (async () => {
 
     //console.log(refs) // [{}...100...{}][{}...100...{}][{}...75...{}]
 
-    //console.log(uniRefs)
-
     console.log(refs)
-    refs.forEach(async (i) => {
-      let uls = i.contentUrl;
-      let options = {
-        method: "GET",
-        headers: {
-          Accept: "application/vnd.github.v3.raw+json",
-          Authorization: process.env.AUTH,
-        },
-      };
-    });
+    
   });
 })();

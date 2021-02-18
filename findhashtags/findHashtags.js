@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = require("./data1.json"); // [{"textBody", "url"},{...},{...}]
+const data = require("./data2.json"); // [{"textBody", "url"},{...},{...}]
 
 const z = (async () => {
   const allDataPR = data
@@ -34,10 +34,12 @@ const z = (async () => {
     .map((i) => {
       return {
         keep: i.edited.filter((x) => !new Set(i.original).has(x)),
+        url: i.url
       };
     })
-    .filter((i) => i.keep.length > 0);
+    //.filter((i) => i.keep.length > 0);
 
+        console.log(allDataPR)
   const result = allDataPR
     .map(({ keep }) => keep)
     .sort()
@@ -52,7 +54,7 @@ const z = (async () => {
     }
   });
 
-  console.log(uniqueHashtag);
+  //console.log(uniqueHashtag);
 
-  fs.appendFileSync("./allAdded.txt", JSON.stringify(uniqueHashtag, null, 2));
+  //fs.appendFileSync("./allAdded.txt", JSON.stringify(uniqueHashtag, null, 2));
 })();

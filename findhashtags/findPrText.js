@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const { get } = require("http");
 require("dotenv").config();
-const pull = require("./pulls");
+const pull = require("./data1");
 
 const y = (async () => {
   const urlPull = pull.flat().map((i) => {
@@ -31,7 +31,7 @@ const y = (async () => {
       url: i.contentUrl,
     });
 
-    console.log(body);
-    fs.appendFileSync("./data1.json", JSON.stringify(body, null, 2));
+    //console.log(body);
+    //fs.appendFileSync("./data2.json", JSON.stringify(body, null, 2));
   });
 })();
