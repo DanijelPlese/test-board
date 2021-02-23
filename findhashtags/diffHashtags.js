@@ -117,23 +117,6 @@ const x = (async () => {
           };
         });
 
-      const toString = JSON.stringify(Object.assign(allAddedHashtags.flat()));
-      //  const toString = JSON.stringify(allAddedHashtags).replace(/\]\[/g, ',');
-
-       // const jsonObject = JSON.parse(toString)
-
-       // console.log(jsonObject)
-        
-      if (toString.length > 79) {
-        //console.log(toString)
-        const arrOfDiff = [];
-        arrOfDiff.push(toString);
-        
-        const arrObj = JSON.parse(arrOfDiff);
-        //console.log(arrObj);
-        //fs.appendFileSync("./arrObj.json", JSON.stringify(arrObj, null, 1));
-      }
-
       /*
         .filter( i => i.length > 0)
         .map(({ keep }) => keep)
@@ -143,21 +126,8 @@ const x = (async () => {
     });
     
   });
-console.log(arrayToIterate)
-/*
-  const allContent = [];
 
-  allContent.push(JSON.stringify(content))
-  //console.log(allContent)
-  allContent.split("][").map(i => {
-    return {
-      keep: i.keep,
-      url: i.url
-    }
-  })
-  console.log(allContent)
-*/
-// replace(/\]\[/g, ',')
+//console.log(arrayToIterate)
 
 
 })();
