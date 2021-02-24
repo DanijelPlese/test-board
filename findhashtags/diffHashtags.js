@@ -79,8 +79,8 @@ const x = (async () => {
       body.push({
         textBody: await result.text(),
         url: i.contentUrl,
-      });
-
+      });                                   // Ovdje mi nastaje problem. Za svaki poziv fetcha dobivam poseban array (isprobao sam concat, ftat, join, spread)
+                                            // Zelim dobiti jedan array svih objekata (sada ih je oko 1150)
       const allAddedHashtags = body
         .map((i) => {
           const searchFor = /([+]hashtags: [^\n]*(\n+))/g;
