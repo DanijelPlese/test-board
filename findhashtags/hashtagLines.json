@@ -1,0 +1,793 @@
+[
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/187.patch"
+  },
+  {
+    "keep": [
+      "#qa"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/307.patch"
+  },
+  {
+    "keep": [
+      "#datamanagement",
+      "#innovation"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/280.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/296.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/289.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/211.patch"
+  },
+  {
+    "keep": [
+      ""
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/250.patch"
+  },
+  {
+    "keep": [
+      "#c",
+      "#c++",
+      "#directX",
+      "#openGL",
+      "#vulkan"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/302.patch"
+  },
+  {
+    "keep": [
+      "",
+      "#Italian"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/221.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/292.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/223.patch"
+  },
+  {
+    "keep": [
+      "#nodejs",
+      "#rest#accountant"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/175.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/305.patch"
+  },
+  {
+    "keep": [
+      "#sql"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/238.patch"
+  },
+  {
+    "keep": [
+      "#reactnative"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/224.patch"
+  },
+  {
+    "keep": [
+      "",
+      "#cplusplus",
+      "#csharp"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/320.patch"
+  },
+  {
+    "keep": [
+      "#csharp"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/215.patch"
+  },
+  {
+    "keep": [
+      "#blockchain",
+      "#crypto",
+      "#lead"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/246.patch"
+  },
+  {
+    "keep": [
+      "#communication"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/299.patch"
+  },
+  {
+    "keep": [
+      "#communcation"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/294.patch"
+  },
+  {
+    "keep": [
+      "#golang"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/396.patch"
+  },
+  {
+    "keep": [
+      "#HR"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/421.patch"
+  },
+  {
+    "keep": [
+      "#illustrator",
+      "#sketch"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/538.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus",
+      "#csharp"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/507.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/319.patch"
+  },
+  {
+    "keep": [
+      ""
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/394.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/378.patch"
+  },
+  {
+    "keep": [
+      "#backend",
+      "#postgresql",
+      "#rust",
+      "#sql"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/388.patch"
+  },
+  {
+    "keep": [
+      "#webpack"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/419.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/228.patch"
+  },
+  {
+    "keep": [
+      ""
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/372.patch"
+  },
+  {
+    "keep": [
+      "#Spanish"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/508.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/369.patch"
+  },
+  {
+    "keep": [
+      "#elixir"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/558.patch"
+  },
+  {
+    "keep": [
+      ""
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/376.patch"
+  },
+  {
+    "keep": [
+      "#design",
+      "#wireframes"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/463.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/460.patch"
+  },
+  {
+    "keep": [
+      "#csharp"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/451.patch"
+  },
+  {
+    "keep": [
+      "#devops"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/466.patch"
+  },
+  {
+    "keep": [
+      "#reactjs",
+      "#vuejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/458.patch"
+  },
+  {
+    "keep": [
+      "#csharp",
+      "#sql"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/437.patch"
+  },
+  {
+    "keep": [
+      ""
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/461.patch"
+  },
+  {
+    "keep": [
+      "#devops",
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/444.patch"
+  },
+  {
+    "keep": [
+      "#operations"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/450.patch"
+  },
+  {
+    "keep": [
+      "#graphql",
+      "#twillio",
+      "#webrtc"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/506.patch"
+  },
+  {
+    "keep": [
+      "#mongodb"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/598.patch"
+  },
+  {
+    "keep": [
+      "#mongodb"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/596.patch"
+  },
+  {
+    "keep": [
+      "#fargate"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/680.patch"
+  },
+  {
+    "keep": [
+      "#management"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/750.patch"
+  },
+  {
+    "keep": [
+      "#elixir"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/671.patch"
+  },
+  {
+    "keep": [
+      "#devops",
+      "#golang"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/621.patch"
+  },
+  {
+    "keep": [
+      "#qualityassurance",
+      "#testing"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/597.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/754.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/842.patch"
+  },
+  {
+    "keep": [
+      "#cloud",
+      "#devops",
+      "#devsec",
+      "#encryption",
+      "#security"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/395.patch"
+  },
+  {
+    "keep": [
+      "#English"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/647.patch"
+  },
+  {
+    "keep": [
+      "#management"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/981.patch"
+  },
+  {
+    "keep": [
+      "#cypress"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/988.patch"
+  },
+  {
+    "keep": [
+      "#agile"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/520.patch"
+  },
+  {
+    "keep": [
+      "#csharp"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/519.patch"
+  },
+  {
+    "keep": [
+      "#selenium"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/896.patch"
+  },
+  {
+    "keep": [
+      "#xero"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/984.patch"
+  },
+  {
+    "keep": [
+      "#elixir",
+      "#golang"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/553.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/855.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/735.patch"
+  },
+  {
+    "keep": [
+      "#English",
+      "#Spanish"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/397.patch"
+  },
+  {
+    "keep": [
+      "#aws"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/711.patch"
+  },
+  {
+    "keep": [
+      "#reactjs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1020.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/755.patch"
+  },
+  {
+    "keep": [
+      "#golang"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/712.patch"
+  },
+  {
+    "keep": [
+      "#sales"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1158.patch"
+  },
+  {
+    "keep": [
+      "#mysql"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/399.patch"
+  },
+  {
+    "keep": [
+      "#agile",
+      "#elixir",
+      "#phoenix"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/569.patch"
+  },
+  {
+    "keep": [
+      "#ArangoDB",
+      "#c++",
+      "#sql"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1026.patch"
+  },
+  {
+    "keep": [
+      "#elixir"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1053.patch"
+  },
+  {
+    "keep": [
+      "#analysis",
+      "#blockchain"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1019.patch"
+  },
+  {
+    "keep": [
+      "#hr",
+      "#projectmanagement"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/401.patch"
+  },
+  {
+    "keep": [
+      "#Italian"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1140.patch"
+  },
+  {
+    "keep": [
+      "#javascript",
+      "#python",
+      "#selenium"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1102.patch"
+  },
+  {
+    "keep": [
+      "#reactjs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1106.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/956.patch"
+  },
+  {
+    "keep": [
+      "#sketch",
+      "#zeplin"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1021.patch"
+  },
+  {
+    "keep": [
+      "#crypto"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/996.patch"
+  },
+  {
+    "keep": [
+      "#reactjs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1016.patch"
+  },
+  {
+    "keep": [
+      "#devops"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/408.patch"
+  },
+  {
+    "keep": [
+      "#optimization"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/901.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/920.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1109.patch"
+  },
+  {
+    "keep": [
+      "#redux"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/476.patch"
+  },
+  {
+    "keep": [
+      "#a/v"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1052.patch"
+  },
+  {
+    "keep": [
+      "#elixir"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1057.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1058.patch"
+  },
+  {
+    "keep": [
+      "#graphql"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1112.patch"
+  },
+  {
+    "keep": [
+      "#rpa"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/962.patch"
+  },
+  {
+    "keep": [
+      "#sketch"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1119.patch"
+  },
+  {
+    "keep": [
+      "#debian",
+      "#flatpak"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1175.patch"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1009.patch"
+  },
+  {
+    "keep": [
+      "#Spanish"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1204.patch"
+  },
+  {
+    "keep": [
+      "#frs102",
+      "#ukgaap",
+      "#xero"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/484.patch"
+  },
+  {
+    "keep": [
+      "#crypto"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1005.patch"
+  },
+  {
+    "keep": [
+      "#jenkins",
+      "#webkit"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/925.patch"
+  },
+  {
+    "keep": [
+      "#operations"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/808.patch"
+  },
+  {
+    "keep": [
+      "#selenium"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/909.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/756.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/758.patch"
+  },
+  {
+    "keep": [
+      "#qa"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1095.patch"
+  },
+  {
+    "keep": [
+      "#atomic"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1284.patch"
+  },
+  {
+    "keep": [
+      "#sketch"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1286.patch"
+  },
+  {
+    "keep": [
+      "#qa"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1081.patch"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/512.patch"
+  },
+  {
+    "keep": [
+      "#gatsby"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1050.patch"
+  },
+  {
+    "keep": [
+      "#sql"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1086.patch"
+  },
+  {
+    "keep": [
+      "#accountant"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1221.patch"
+  },
+  {
+    "keep": [
+      "#mesa"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/926.patch"
+  },
+  {
+    "keep": [
+      "#elixir",
+      "#kafka"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1046.patch"
+  },
+  {
+    "keep": [
+      "#analysis"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1185.patch"
+  },
+  {
+    "keep": [
+      "#games",
+      "#writer"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1173.patch"
+  },
+  {
+    "keep": [
+      "#productmanagement"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/563.patch"
+  },
+  {
+    "keep": [
+      "#ceramic",
+      "#cryptography"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1152.patch"
+  },
+  {
+    "keep": [
+      "#operations"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1216.patch"
+  },
+  {
+    "keep": [
+      "#finance"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1206.patch"
+  },
+  {
+    "keep": [
+      "#customersupport"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1220.patch"
+  },
+  {
+    "keep": [
+      "#twilio",
+      "#webrtc"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/608.patch"
+  },
+  {
+    "keep": [
+      "#emberjs"
+    ],
+    "url": "https://github.com/crocoder-dev/monorepo/pull/1079.patch"
+  }
+]
