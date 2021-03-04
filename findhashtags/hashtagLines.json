@@ -3,44 +3,56 @@
     "keep": [
       "#nodejs"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/187.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-devops-engineer-psaas-auth0-hdRSw.md"
   },
   {
     "keep": [
-      "#qa"
+      "#csharp"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/307.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-platform-engineer-stellar-development-foundation-DBYXU.md"
   },
   {
     "keep": [
-      "#datamanagement",
-      "#innovation"
+      "",
+      "#Italian"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/280.patch"
+    "file": "packages/jobboard/website/content/jobs/account-executive-italian-and-english-kinsta-sGzFu.md"
   },
   {
     "keep": [
-      "#cplusplus"
+      "#reactnative"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/296.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/289.patch"
+    "file": "packages/jobboard/website/content/jobs/front-end-react-native-engineer-senior-maharishi-foundation-international-LKEPx.md"
   },
   {
     "keep": [
       "#nodejs"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/211.patch"
+    "file": "packages/jobboard/website/content/jobs/principal-engineer-auth0-CcGju.md"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-software-engineer-identity-auth0-KzEHH.md"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/front-end-full-stack-developer-whereby-nixa-io-xkVLv.md"
   },
   {
     "keep": [
       ""
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/250.patch"
+    "file": "packages/jobboard/website/content/jobs/remote-back-end-developer-nixa-io-FbNoY.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-software-engineer-voice-input-current-job-openings-at-magic-leap-inc--xBMrW.md"
   },
   {
     "keep": [
@@ -50,65 +62,19 @@
       "#openGL",
       "#vulkan"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/302.patch"
-  },
-  {
-    "keep": [
-      "",
-      "#Italian"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/221.patch"
+    "file": "packages/jobboard/website/content/jobs/lead-systems-engineer-graphics-current-job-openings-at-magic-leap-inc--FnYHX.md"
   },
   {
     "keep": [
       "#cplusplus"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/292.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-software-engineer-application-framework-current-job-openings-at-magic-leap-inc--DaBmz.md"
   },
   {
     "keep": [
-      "#nodejs"
+      "#communication"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/223.patch"
-  },
-  {
-    "keep": [
-      "#nodejs",
-      "#rest#accountant"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/175.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/305.patch"
-  },
-  {
-    "keep": [
-      "#sql"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/238.patch"
-  },
-  {
-    "keep": [
-      "#reactnative"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/224.patch"
-  },
-  {
-    "keep": [
-      "",
-      "#cplusplus",
-      "#csharp"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/320.patch"
-  },
-  {
-    "keep": [
-      "#csharp"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/215.patch"
+    "file": "packages/jobboard/website/content/jobs/business-development-manager-remote-europe-primer-friZw.md"
   },
   {
     "keep": [
@@ -116,63 +82,163 @@
       "#crypto",
       "#lead"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/246.patch"
-  },
-  {
-    "keep": [
-      "#communication"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/299.patch"
+    "file": "packages/jobboard/website/content/jobs/lead-blockchain-architect-stellar-development-foundation-TicZD.md"
   },
   {
     "keep": [
       "#communcation"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/294.patch"
-  },
-  {
-    "keep": [
-      "#golang"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/396.patch"
-  },
-  {
-    "keep": [
-      "#HR"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/421.patch"
-  },
-  {
-    "keep": [
-      "#illustrator",
-      "#sketch"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/538.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus",
-      "#csharp"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/507.patch"
+    "file": "packages/jobboard/website/content/jobs/business-development-manager-remote-singapore-primer-psaRb.md"
   },
   {
     "keep": [
       "#cplusplus"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/319.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-lead-software-engineer-browser-current-job-openings-at-magic-leap-inc--ZnvOt.md"
   },
   {
     "keep": [
-      ""
+      "#cplusplus"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/394.patch"
+    "file": "packages/jobboard/website/content/jobs/manager-voice-input-and-speech-synthesis-current-job-openings-at-magic-leap-inc--sdlzL.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/lead-engineer-applications-r-d-health-current-job-openings-at-magic-leap-inc--nCchk.md"
+  },
+  {
+    "keep": [
+      "#qa"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-quality-assurance-engineer-hometime-MblUs.md"
+  },
+  {
+    "keep": [
+      "",
+      "#cplusplus",
+      "#csharp"
+    ],
+    "file": "packages/jobboard/website/content/jobs/principal-engineer-applications-r-d-health-current-job-openings-at-magic-leap-inc--PnNIQ.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-chromium-engineer-brave-qOzZm.md"
+  },
+  {
+    "keep": [
+      "#sql"
+    ],
+    "file": "packages/jobboard/website/content/jobs/full-stack-developer-fully-remote-eu-only-quidco-blEPD.md"
+  },
+  {
+    "keep": [
+      "#datamanagement",
+      "#innovation"
+    ],
+    "file": "packages/jobboard/website/content/jobs/business-analyst-remote-piggy-llc-YmgeQ.md"
+  },
+  {
+    "keep": [
+      "#elixir"
+    ],
+    "file": "packages/jobboard/website/content/jobs/elixir-developer-dockyard-inc--ofrhG.md"
+  },
+  {
+    "keep": [
+      "#golang"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-scaling-engineer-customer-io-SrxIE.md"
+  },
+  {
+    "keep": [
+      "#devops",
+      "#nodejs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/full-stack-software-engineer-marketing-platform-auth0-tcZtR.md"
   },
   {
     "keep": [
       "#nodejs"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/378.patch"
+    "file": "packages/jobboard/website/content/jobs/associate-software-engineer-integrations-europe-primer-GHkgJ.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/mid-senior-unity-developer-m-f-d-deca-games-TcfXs.md"
+  },
+  {
+    "keep": [
+      "#operations"
+    ],
+    "file": "packages/jobboard/website/content/jobs/product-manager-pleo-PlWKV.md"
+  },
+  {
+    "keep": [
+      "#mesa"
+    ],
+    "file": "packages/jobboard/website/content/jobs/mesa-graphics-software-developer-remote-anywhere-collabora-kXBuR.md"
+  },
+  {
+    "keep": [
+      "#selenium"
+    ],
+    "file": "packages/jobboard/website/content/jobs/software-engineer-in-test-remote-web-summit-FLzXf.md"
+  },
+  {
+    "keep": [
+      "#English",
+      "#Spanish"
+    ],
+    "file": "packages/jobboard/website/content/jobs/fight-fraud-as-pre-sales-consultant-spain-friss-fraud-risk-compliance-qLWPZ.md"
+  },
+  {
+    "keep": [
+      ""
+    ],
+    "file": "packages/jobboard/website/content/jobs/frontend-software-engineer-m-f-d-jimdo-ZHkRO.md"
+  },
+  {
+    "keep": [
+      "#selenium"
+    ],
+    "file": "packages/jobboard/website/content/jobs/automation-qa-engineer-eastern-europe-mobymax-stEYD.md"
+  },
+  {
+    "keep": [
+      "#golang"
+    ],
+    "file": "packages/jobboard/website/content/jobs/go-engineer-sticker-mule-ybIXF.md"
+  },
+  {
+    "keep": [
+      "#rpa"
+    ],
+    "file": "packages/jobboard/website/content/jobs/robotic-process-automation-lead-riverflex-JrJbL.md"
+  },
+  {
+    "keep": [
+      "#nodejs",
+      "#rest#accountant"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-software-engineer-administration-experience-auth0-nEsQV.md"
+  },
+  {
+    "keep": [
+      ""
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-product-manager-platform-m-f-d-jimdo-KNAcR.md"
+  },
+  {
+    "keep": [
+      "#optimization"
+    ],
+    "file": "packages/jobboard/website/content/jobs/agile-coach-remote-web-summit-aHbKI.md"
   },
   {
     "keep": [
@@ -181,171 +247,13 @@
       "#rust",
       "#sql"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/388.patch"
+    "file": "packages/jobboard/website/content/jobs/backend-engineer-remote-eu-chartmogul-cmtde-gmbh-co-kg-lQObn.md"
   },
   {
     "keep": [
-      "#webpack"
+      "#reactjs"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/419.patch"
-  },
-  {
-    "keep": [
-      "#nodejs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/228.patch"
-  },
-  {
-    "keep": [
-      ""
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/372.patch"
-  },
-  {
-    "keep": [
-      "#Spanish"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/508.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/369.patch"
-  },
-  {
-    "keep": [
-      "#elixir"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/558.patch"
-  },
-  {
-    "keep": [
-      ""
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/376.patch"
-  },
-  {
-    "keep": [
-      "#design",
-      "#wireframes"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/463.patch"
-  },
-  {
-    "keep": [
-      "#nodejs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/460.patch"
-  },
-  {
-    "keep": [
-      "#csharp"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/451.patch"
-  },
-  {
-    "keep": [
-      "#devops"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/466.patch"
-  },
-  {
-    "keep": [
-      "#reactjs",
-      "#vuejs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/458.patch"
-  },
-  {
-    "keep": [
-      "#csharp",
-      "#sql"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/437.patch"
-  },
-  {
-    "keep": [
-      ""
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/461.patch"
-  },
-  {
-    "keep": [
-      "#devops",
-      "#nodejs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/444.patch"
-  },
-  {
-    "keep": [
-      "#operations"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/450.patch"
-  },
-  {
-    "keep": [
-      "#graphql",
-      "#twillio",
-      "#webrtc"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/506.patch"
-  },
-  {
-    "keep": [
-      "#mongodb"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/598.patch"
-  },
-  {
-    "keep": [
-      "#mongodb"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/596.patch"
-  },
-  {
-    "keep": [
-      "#fargate"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/680.patch"
-  },
-  {
-    "keep": [
-      "#management"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/750.patch"
-  },
-  {
-    "keep": [
-      "#elixir"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/671.patch"
-  },
-  {
-    "keep": [
-      "#devops",
-      "#golang"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/621.patch"
-  },
-  {
-    "keep": [
-      "#qualityassurance",
-      "#testing"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/597.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/754.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/842.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-software-engineer-curebase-HAOPk.md"
   },
   {
     "keep": [
@@ -355,119 +263,100 @@
       "#encryption",
       "#security"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/395.patch"
+    "file": "packages/jobboard/website/content/jobs/fight-fraud-as-cloud-security-engineer-friss-fraud-risk-compliance-geJHI.md"
   },
   {
     "keep": [
-      "#English"
+      "#jenkins",
+      "#webkit"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/647.patch"
+    "file": "packages/jobboard/website/content/jobs/open-source-software-developer-speculative-remote-anywhere-collabora-IhAxX.md"
   },
   {
     "keep": [
-      "#management"
+      "#cplusplus"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/981.patch"
+    "file": "packages/jobboard/website/content/jobs/multimedia-open-source-software-developer-remote-anywhere-collabora-YZDcy.md"
   },
   {
     "keep": [
-      "#cypress"
+      "#HR"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/988.patch"
+    "file": "packages/jobboard/website/content/jobs/chief-of-staff-clubhouse-software-Jxkvi.md"
   },
   {
     "keep": [
-      "#agile"
+      "#devops"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/520.patch"
+    "file": "packages/jobboard/website/content/jobs/devops-engineer-remote-vertistudio-qMIHV.md"
   },
   {
     "keep": [
-      "#csharp"
+      "#cplusplus"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/519.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-c-developer-remote-flightradar24-cnbhn.md"
   },
   {
     "keep": [
-      "#selenium"
+      "#webpack"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/896.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-frontend-engineer-clubhouse-software-llYsr.md"
   },
   {
     "keep": [
-      "#xero"
+      "#sketch",
+      "#zeplin"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/984.patch"
+    "file": "packages/jobboard/website/content/jobs/product-designer-ux-ui-fully-remote-gustav-technologies-inc-iHWVv.md"
   },
   {
     "keep": [
-      "#elixir",
-      "#golang"
+      "#cplusplus"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/553.patch"
+    "file": "packages/jobboard/website/content/jobs/sr-engineer-embedded-in-rust-ockam-WbuZR.md"
   },
   {
     "keep": [
       "#nodejs"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/855.patch"
+    "file": "packages/jobboard/website/content/jobs/front-end-developer-javascript-remote-flightradar24-KAVIZ.md"
   },
   {
     "keep": [
-      "#cplusplus"
+      ""
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/735.patch"
+    "file": "packages/jobboard/website/content/jobs/fight-fraud-as-professional-services-consultant-friss-fraud-risk-compliance-jAMYc.md"
   },
   {
     "keep": [
-      "#English",
-      "#Spanish"
+      "#games",
+      "#writer"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/397.patch"
+    "file": "packages/jobboard/website/content/jobs/games-writer-freelance-the-irregular-corp-mediatonic-YwzNC.md"
   },
   {
     "keep": [
-      "#aws"
+      "#finance"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/711.patch"
+    "file": "packages/jobboard/website/content/jobs/graduate-assistant-project-manager-remote-bit-zesty-GZlrE.md"
   },
   {
     "keep": [
-      "#reactjs"
+      "#emberjs"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1020.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/755.patch"
-  },
-  {
-    "keep": [
-      "#golang"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/712.patch"
-  },
-  {
-    "keep": [
-      "#sales"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1158.patch"
+    "file": "packages/jobboard/website/content/jobs/front-end-engineer-customer-io-kSKJw.md"
   },
   {
     "keep": [
       "#mysql"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/399.patch"
+    "file": "packages/jobboard/website/content/jobs/wordpress-developer-remote-awesome-motive-inc-zNvhb.md"
   },
   {
     "keep": [
-      "#agile",
-      "#elixir",
-      "#phoenix"
+      "#cplusplus"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/569.patch"
+    "file": "packages/jobboard/website/content/jobs/brave-ads-client-engineer-brave-HWXoq.md"
   },
   {
     "keep": [
@@ -475,33 +364,351 @@
       "#c++",
       "#sql"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1026.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-c-c-developer-arangodb-gmbh-YtpXP.md"
+  },
+  {
+    "keep": [
+      "#Italian"
+    ],
+    "file": "packages/jobboard/website/content/jobs/customer-happiness-engineer-with-french-italian-skills-sherpany-NvAUh.md"
+  },
+  {
+    "keep": [
+      "#operations"
+    ],
+    "file": "packages/jobboard/website/content/jobs/assistant-project-manager-remote-bit-zesty-LZVOE.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-backend-engineer-kentik-jqfja.md"
+  },
+  {
+    "keep": [
+      "#debian",
+      "#flatpak"
+    ],
+    "file": "packages/jobboard/website/content/jobs/debian-system-integration-developer-remote-anywhere-collabora-oShgQ.md"
+  },
+  {
+    "keep": [
+      "#ceramic",
+      "#cryptography"
+    ],
+    "file": "packages/jobboard/website/content/jobs/protocol-engineer-3box-labs-souia.md"
+  },
+  {
+    "keep": [
+      "#illustrator",
+      "#sketch"
+    ],
+    "file": "packages/jobboard/website/content/jobs/product-design-intern-remote-remo-co-BIAYl.md"
+  },
+  {
+    "keep": [
+      "#redux"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-full-stack-developer-remote-remo-co-HBzis.md"
+  },
+  {
+    "keep": [
+      "#mongodb"
+    ],
+    "file": "packages/jobboard/website/content/jobs/fullstack-developer-kodify-ESwha.md"
   },
   {
     "keep": [
       "#elixir"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1053.patch"
+    "file": "packages/jobboard/website/content/jobs/sr-engineer-elixir-ockam-ddvoy.md"
+  },
+  {
+    "keep": [
+      "#mongodb"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-backend-developer-kodify-UToNE.md"
+  },
+  {
+    "keep": [
+      "#operations"
+    ],
+    "file": "packages/jobboard/website/content/jobs/recruiter-m-f-d-demodesk-OVFcQ.md"
+  },
+  {
+    "keep": [
+      "#analysis"
+    ],
+    "file": "packages/jobboard/website/content/jobs/customer-success-manager-smb-red-canary-EkKiJ.md"
+  },
+  {
+    "keep": [
+      "#elixir"
+    ],
+    "file": "packages/jobboard/website/content/jobs/elixir-developer-pool-for-future-positions-dockyard-inc--MXkBq.md"
+  },
+  {
+    "keep": [
+      "#agile",
+      "#elixir",
+      "#phoenix"
+    ],
+    "file": "packages/jobboard/website/content/jobs/elixir-developer-contract-dockyard-inc--EoBwV.md"
+  },
+  {
+    "keep": [
+      "#sketch"
+    ],
+    "file": "packages/jobboard/website/content/jobs/ux-ui-designer-20-40-creable-dQQig.md"
+  },
+  {
+    "keep": [
+      "#elixir",
+      "#golang"
+    ],
+    "file": "packages/jobboard/website/content/jobs/backend-developer-sketch-gPFMI.md"
+  },
+  {
+    "keep": [
+      "#productmanagement"
+    ],
+    "file": "packages/jobboard/website/content/jobs/product-manager-vinovest-raVql.md"
+  },
+  {
+    "keep": [
+      "#Spanish"
+    ],
+    "file": "packages/jobboard/website/content/jobs/remote-bilingual-technical-support-advisor-english-spanish-evisit-lqdoz.md"
+  },
+  {
+    "keep": [
+      "#customersupport"
+    ],
+    "file": "packages/jobboard/website/content/jobs/support-specialist-kuali-research-kuali-DWxUQ.md"
+  },
+  {
+    "keep": [
+      "#devops"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-platform-site-reliability-engineer-remote-fonoa-technologies-ZIwzZ.md"
+  },
+  {
+    "keep": [
+      "#twilio",
+      "#webrtc"
+    ],
+    "file": "packages/jobboard/website/content/jobs/front-end-engineer-hire-space-oUIkN.md"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/agent-software-engineer-invisible-technologies-LAWAi.md"
+  },
+  {
+    "keep": [
+      "#csharp"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-backend-engineer-remote-fonoa-technologies-naicz.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/ethereum-chromium-engineer-brave-QlCpu.md"
+  },
+  {
+    "keep": [
+      "#elixir"
+    ],
+    "file": "packages/jobboard/website/content/jobs/architect-rust-library-design-ockam-fiEBZ.md"
+  },
+  {
+    "keep": [
+      "#aws"
+    ],
+    "file": "packages/jobboard/website/content/jobs/director-of-engineering-infrastructure-hopin-jjjIq.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-software-engineer-current-job-openings-at-magic-leap-inc--WzTJP.md"
+  },
+  {
+    "keep": [
+      "#English"
+    ],
+    "file": "packages/jobboard/website/content/jobs/customer-support-specialist-remote-eu-based-leadfeeder-mznlM.md"
+  },
+  {
+    "keep": [
+      "#management"
+    ],
+    "file": "packages/jobboard/website/content/jobs/enterprise-account-executive-documo-oETrO.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/bat-rewards-engineer-brave-xSiSL.md"
+  },
+  {
+    "keep": [
+      "#crypto"
+    ],
+    "file": "packages/jobboard/website/content/jobs/front-end-engineer-brave-wallet-brave-asTTT.md"
+  },
+  {
+    "keep": [
+      "#devops",
+      "#golang"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-scaling-engineer-customer-io-qZRRQ.md"
+  },
+  {
+    "keep": [
+      "#sales"
+    ],
+    "file": "packages/jobboard/website/content/jobs/customer-success-lead-remote-posthog-udswf.md"
+  },
+  {
+    "keep": [
+      "#atomic"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-product-design-lead-hopin-MWkZe.md"
+  },
+  {
+    "keep": [
+      "#fargate"
+    ],
+    "file": "packages/jobboard/website/content/jobs/infrastructure-engineer-evisit-ZqXsV.md"
+  },
+  {
+    "keep": [
+      "#qa"
+    ],
+    "file": "packages/jobboard/website/content/jobs/qa-engineer-current-mobile-bJqoT.md"
+  },
+  {
+    "keep": [
+      "#xero"
+    ],
+    "file": "packages/jobboard/website/content/jobs/accounts-associate-bibliu-AsKtf.md"
+  },
+  {
+    "keep": [
+      "#qualityassurance",
+      "#testing"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-qa-engineer-m-f-d-demodesk-tQGrt.md"
+  },
+  {
+    "keep": [
+      "#gatsby"
+    ],
+    "file": "packages/jobboard/website/content/jobs/jam-stack-developer-ockam-aVpnH.md"
+  },
+  {
+    "keep": [
+      "#cplusplus"
+    ],
+    "file": "packages/jobboard/website/content/jobs/performance-researcher-brave-SLweX.md"
+  },
+  {
+    "keep": [
+      "#cplusplus",
+      "#csharp"
+    ],
+    "file": "packages/jobboard/website/content/jobs/mid-senior-developer-backend-c-c-m-f-d-deca-games-NTQLk.md"
+  },
+  {
+    "keep": [
+      "#reactjs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/software-engineer-curebase-XYjmf.md"
+  },
+  {
+    "keep": [
+      "#elixir",
+      "#kafka"
+    ],
+    "file": "packages/jobboard/website/content/jobs/architect-messaging-systems-in-elixir-ockam-DgcOG.md"
+  },
+  {
+    "keep": [
+      "#crypto"
+    ],
+    "file": "packages/jobboard/website/content/jobs/growth-manager-remote-bitfinex-iWsHJ.md"
   },
   {
     "keep": [
       "#analysis",
       "#blockchain"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1019.patch"
+    "file": "packages/jobboard/website/content/jobs/junior-regulatory-analyst-binance-VdvMT.md"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/full-stack-engineer-video-conferencing-screen-sharing-m-f-d-demodesk-GAuKb.md"
+  },
+  {
+    "keep": [
+      "#csharp",
+      "#sql"
+    ],
+    "file": "packages/jobboard/website/content/jobs/backend-engineer-beat-vfztp.md"
+  },
+  {
+    "keep": [
+      "#agile"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-ios-engineer-jibble-group-SXkGG.md"
   },
   {
     "keep": [
       "#hr",
       "#projectmanagement"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/401.patch"
+    "file": "packages/jobboard/website/content/jobs/head-of-people-remote-vertistudio-xNEps.md"
   },
   {
     "keep": [
-      "#Italian"
+      "#csharp"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1140.patch"
+    "file": "packages/jobboard/website/content/jobs/senior-back-end-developer-jibble-group-TdiDs.md"
+  },
+  {
+    "keep": [
+      "#Spanish"
+    ],
+    "file": "packages/jobboard/website/content/jobs/account-executive-iberia-m-f-d-cargo-one-XFUqs.md"
+  },
+  {
+    "keep": [
+      "#sketch"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-product-designer-hopin-lveiY.md"
+  },
+  {
+    "keep": [
+      "#nodejs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/senior-full-stack-developer-bibliu-iVpGH.md"
+  },
+  {
+    "keep": [
+      "#a/v"
+    ],
+    "file": "packages/jobboard/website/content/jobs/animator-and-video-editor-parade-WORtk.md"
+  },
+  {
+    "keep": [
+      "#accountant"
+    ],
+    "file": "packages/jobboard/website/content/jobs/customer-success-specialist-kuali-financials-kuali-JYSij.md"
   },
   {
     "keep": [
@@ -509,123 +716,46 @@
       "#python",
       "#selenium"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1102.patch"
+    "file": "packages/jobboard/website/content/jobs/agent-software-engineer-web-scraper-invisible-technologies-MuTln.md"
+  },
+  {
+    "keep": [
+      "#sql"
+    ],
+    "file": "packages/jobboard/website/content/jobs/data-engineer-corsearch-DOOxl.md"
+  },
+  {
+    "keep": [
+      "#graphql",
+      "#twillio",
+      "#webrtc"
+    ],
+    "file": "packages/jobboard/website/content/jobs/front-end-engineer-hire-space-JoglF.md"
+  },
+  {
+    "keep": [
+      "#reactjs",
+      "#vuejs"
+    ],
+    "file": "packages/jobboard/website/content/jobs/full-stack-engineer-real-time-conversation-assistance-m-f-d-demodesk-FGQse.md"
   },
   {
     "keep": [
       "#reactjs"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1106.patch"
+    "file": "packages/jobboard/website/content/jobs/partner-senior-software-engineer-new-invisible-technologies-dtPsc.md"
   },
   {
     "keep": [
-      "#cplusplus"
+      "#management"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/956.patch"
+    "file": "packages/jobboard/website/content/jobs/enterprise-account-executive-documo-SmOrn.md"
   },
   {
     "keep": [
-      "#sketch",
-      "#zeplin"
+      "#qa"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1021.patch"
-  },
-  {
-    "keep": [
-      "#crypto"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/996.patch"
-  },
-  {
-    "keep": [
-      "#reactjs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1016.patch"
-  },
-  {
-    "keep": [
-      "#devops"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/408.patch"
-  },
-  {
-    "keep": [
-      "#optimization"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/901.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/920.patch"
-  },
-  {
-    "keep": [
-      "#nodejs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1109.patch"
-  },
-  {
-    "keep": [
-      "#redux"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/476.patch"
-  },
-  {
-    "keep": [
-      "#a/v"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1052.patch"
-  },
-  {
-    "keep": [
-      "#elixir"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1057.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1058.patch"
-  },
-  {
-    "keep": [
-      "#graphql"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1112.patch"
-  },
-  {
-    "keep": [
-      "#rpa"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/962.patch"
-  },
-  {
-    "keep": [
-      "#sketch"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1119.patch"
-  },
-  {
-    "keep": [
-      "#debian",
-      "#flatpak"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1175.patch"
-  },
-  {
-    "keep": [
-      "#nodejs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1009.patch"
-  },
-  {
-    "keep": [
-      "#Spanish"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1204.patch"
+    "file": "packages/jobboard/website/content/jobs/junior-qa-piggy-llc-YGOtO.md"
   },
   {
     "keep": [
@@ -633,161 +763,31 @@
       "#ukgaap",
       "#xero"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/484.patch"
+    "file": "packages/jobboard/website/content/jobs/finance-manager-fully-remote-work-from-anywhere-omnipresent-RKLeW.md"
   },
   {
     "keep": [
-      "#crypto"
+      "#design",
+      "#wireframes"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1005.patch"
+    "file": "packages/jobboard/website/content/jobs/ux-ui-designer-remote-fonoa-technologies-XwYqS.md"
   },
   {
     "keep": [
-      "#jenkins",
-      "#webkit"
+      "#cypress"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/925.patch"
+    "file": "packages/jobboard/website/content/jobs/qa-engineer-remote-bitfinex-tiZEO.md"
   },
   {
     "keep": [
-      "#operations"
+      ""
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/808.patch"
+    "file": "packages/jobboard/website/content/jobs/junior-product-designer-m-f-d-demodesk-oGgMN.md"
   },
   {
     "keep": [
-      "#selenium"
+      "#graphql"
     ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/909.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/756.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/758.patch"
-  },
-  {
-    "keep": [
-      "#qa"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1095.patch"
-  },
-  {
-    "keep": [
-      "#atomic"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1284.patch"
-  },
-  {
-    "keep": [
-      "#sketch"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1286.patch"
-  },
-  {
-    "keep": [
-      "#qa"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1081.patch"
-  },
-  {
-    "keep": [
-      "#cplusplus"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/512.patch"
-  },
-  {
-    "keep": [
-      "#gatsby"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1050.patch"
-  },
-  {
-    "keep": [
-      "#sql"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1086.patch"
-  },
-  {
-    "keep": [
-      "#accountant"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1221.patch"
-  },
-  {
-    "keep": [
-      "#mesa"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/926.patch"
-  },
-  {
-    "keep": [
-      "#elixir",
-      "#kafka"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1046.patch"
-  },
-  {
-    "keep": [
-      "#analysis"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1185.patch"
-  },
-  {
-    "keep": [
-      "#games",
-      "#writer"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1173.patch"
-  },
-  {
-    "keep": [
-      "#productmanagement"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/563.patch"
-  },
-  {
-    "keep": [
-      "#ceramic",
-      "#cryptography"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1152.patch"
-  },
-  {
-    "keep": [
-      "#operations"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1216.patch"
-  },
-  {
-    "keep": [
-      "#finance"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1206.patch"
-  },
-  {
-    "keep": [
-      "#customersupport"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1220.patch"
-  },
-  {
-    "keep": [
-      "#twilio",
-      "#webrtc"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/608.patch"
-  },
-  {
-    "keep": [
-      "#emberjs"
-    ],
-    "url": "https://github.com/crocoder-dev/monorepo/pull/1079.patch"
+    "file": "packages/jobboard/website/content/jobs/full-stack-web-engineer-f-m-div-perdoo-zZHXP.md"
   }
 ]

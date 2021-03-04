@@ -1,14 +1,13 @@
 const content = require("./hashtagLines.json");
 
-//console.log(content)
 
 // all added hashtags
 const allKeywords = content
   .map(({ keep }) => keep)
   .sort()
   .flat();
-  
 //console.log(allKeywords)
+
 
 // count unique hashtags
 const sumHashtag = content
@@ -16,30 +15,27 @@ const sumHashtag = content
   .sort()
   .flat();
 
-const uniqueTags = [];
-
-for ( i of sumHashtag ) {
-  if ( uniqueTags.indexOf(i) === -1 ) {
-    uniqueTags.push(i);
+const countTags = sumHashtag.reduce((allTags, keep) => {
+  if (keep in allTags) {
+    allTags[keep]++;
+  } else {
+    allTags[keep] = 1;
   }
-  //console.log(uniqueTags)
-}
+  return allTags;
+}, {});
+//console.log(countTags);
 
-for ( n of uniqueTags ) {
-  let acc = 0;
-  for ( p of uniqueTags ) {
-    if ( n === p ) {
-      acc ++;
-    }
+
+const fileOfTag = sumHashtag.reduce((allTags, keep) => {
+  if (keep in allTags) {
+    allTags[keep]++;
+  } else {
+    allTags[keep] = 1;
   }
-  //console.log(`${p} = ${acc}`)
-}
+  return allTags;
+}, {});
+console.log(fileOfTag);
 
-//console.log(`${n} = ${acc}`)
-
-
-
-  //console.log(sumHashtag)
 
 // all unique hashtags
 const uniqueHashtag = [];
@@ -48,6 +44,4 @@ allKeywords.forEach((h) => {
     uniqueHashtag.push(h);
   }
 });
-
 //console.log(uniqueHashtag);
-

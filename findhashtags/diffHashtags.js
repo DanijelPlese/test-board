@@ -90,15 +90,48 @@ const x = (async () => {
       .map((i) => {
         return {
           keep: i.edited.filter((x) => !new Set(i.original).has(x)),
-          file: i.file,
+          file: `packages/jobboard/website/content/jobs/${i.file}`,
         };
       })
       .filter((i) => i.keep.length > 0);
 
-    console.log(hashtagLines);
+    //console.log(hashtagLines);
 
-    //fs.writeFileSync("./hashtagLines.json", JSON.stringify(hashtagLines, null, 2));
+    fs.writeFileSync("./hashtagLines.json", JSON.stringify(hashtagLines, null, 2));
 
+    // all added hashtags
+const allKeywords = hashtagLines
+.map(({ keep }) => keep)
+.sort()
+.flat();
+//console.log(allKeywords)
+
+
+// count unique hashtags
+const sumHashtag = hashtagLines
+.map(({ keep }) => keep)
+.sort()
+.flat();
+
+const countTags = sumHashtag.reduce((allTags, keep) => {
+if (keep in allTags) {
+  allTags[keep]++;
+} else {
+  allTags[keep] = 1;
+}
+return allTags;
+}, {});
+//console.log(countTags);
+
+
+// all unique hashtags
+const uniqueHashtag = [];
+allKeywords.forEach((h) => {
+if (!uniqueHashtag.includes(h)) {
+  uniqueHashtag.push(h);
+}
+});
+//console.log(uniqueHashtag);
   });
 
 })();
