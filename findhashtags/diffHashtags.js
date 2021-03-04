@@ -2,10 +2,6 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 require("dotenv").config();
 
-if("./arrObj.json" === true) {
-  const content = require("./arrObj.json");
-}
-
 
 const x = (async () => {
   let lastPullRequestUrl =
@@ -26,21 +22,25 @@ const x = (async () => {
 
   const lastPrNumber = await lastPullRequests.slice(0, 1);
 
-  const pages = Array.from(
-    { length: Math.ceil(lastPrNumber / 100) },
+  const allPrNumbers = Array.from(
+    { length: Math.ceil(lastPrNumber) },
     (_, n) => n + 1
   );
 
-  const arrayToIterate = [];
+  const prUrls = [];
 
-  for (i = 0; i < pages.length; i++) {
-    arrayToIterate.push({
-      url: `https://api.github.com/repos/crocoder-dev/monorepo/pulls?state=all&page=${pages[i]}&per_page=100`,
+  for (i = 0; i < allPrNumbers.length; i++) {
+    prUrls.push({
+      contentUrl: `https://github.com/crocoder-dev/monorepo/pull/${allPrNumbers[i]}.patch`,
+      url: `https://api.github.com/repos/crocoder-dev/monorepo/pulls/${allPrNumbers[i]}'`,
     });
   }
+  //fs.writeFileSync("./prUrls.json", JSON.stringify(prUrls, null, 2));
 
-  arrayToIterate.forEach(async (i) => {
-    let ul = i.url;
+  const body = [];
+
+  prUrls.forEach(async (el) => {
+    let ul = el.contentUrl;
     let options = {
       method: "GET",
       headers: {
@@ -48,116 +48,90 @@ const x = (async () => {
         Authorization: process.env.AUTH,
       },
     };
+    const results = await fetch(ul, options);
 
-    const response = await fetch(ul, options);
-
-    const data = await response.json();
-
-    const refs = data.map((t) => {
-      return {
-        contentUrl: t.patch_url,
-        url: t.url,
-      };
+    body.push({
+      textBody: await results.text(),
+      url: el.contentUrl,
     });
 
+    const allDataPR = body
+      .map((i) => {
+        const searchForTags = /([+]hashtags: [^\n]*(\n+))/g;
+        const searchForFile = /(diff [^\n]*(\n+))/g;
+        return {
+          hashtags: i.textBody.match(searchForTags),
+          url: i.textBody.match(searchForFile),
+        };
+      })
+      .filter((i) => i.hashtags !== null && i.hashtags.length === 2);
 
-    
-    refs.forEach(async (i) => {
-      let uls = i.contentUrl;
-      let options = {
-        method: "GET",
-        headers: {
-          Accept: "application/vnd.github.v3.raw+json",
-          Authorization: process.env.AUTH,
-        },
-      };
+    const hashtagLines = allDataPR
+      .map((i) => {
+        return {
+          original: i.hashtags[0]
+            .replace(/[+]hashtags: "/g, "")
+            .replace(/"\n/g, "")
+            .split(",")
+            .sort(),
+          edited: i.hashtags[1]
+            .replace(/[+]hashtags: "/g, "")
+            .replace(/"\n/g, "")
+            .replace(/\n/g, "")
+            .replace(/##/g, "#")
+            .replace(/ #/g, "#")
+            .replace(/"#/g, "#")
+            .replace(/\"/g, "")
+            .split(",")
+            .sort(),
+          file: i.url[0].split("/").slice(-1).pop().replace(/\n/g, ""),
+        };
+      })
+      .map((i) => {
+        return {
+          keep: i.edited.filter((x) => !new Set(i.original).has(x)),
+          file: `packages/jobboard/website/content/jobs/${i.file}`,
+        };
+      })
+      .filter((i) => i.keep.length > 0);
 
-      const body = [];
+    //console.log(hashtagLines);
 
-      const result = await fetch(uls, options);
+    fs.writeFileSync("./hashtagLines.json", JSON.stringify(hashtagLines, null, 2));
 
-      body.push({
-        textBody: await result.text(),
-        url: i.contentUrl,
-      });
+    // all added hashtags
+const allKeywords = hashtagLines
+.map(({ keep }) => keep)
+.sort()
+.flat();
+//console.log(allKeywords)
 
-      const allAddedHashtags = body
-        .map((i) => {
-          const searchFor = /([+]hashtags: [^\n]*(\n+))/g;
-          return {
-            hashtags: i.textBody.match(searchFor),
-            url: i.url,
-          };
-        })
-        .filter((i) => i.hashtags !== null && i.hashtags.length === 2)
-        .map((i) => {
-          return {
-            original: i.hashtags[0]
-              .replace(/[+]hashtags: "/g, "")
-              .replace(/"\n/g, "")
-              .split(",")
-              .sort(),
-            edited: i.hashtags[1]
-              .replace(/[+]hashtags: "/g, "")
-              .replace(/"\n/g, "")
-              .replace(/\n/g, "")
-              .replace(/##/g, "#")
-              .replace(/ #/g, "#")
-              .replace(/"#/g, "#")
-              .replace(/\"/g, "")
-              .split(",")
-              .sort(),
-            url: i.url,
-          };
-        })
-        .map((i) => {
-          return {
-            keep: i.edited.filter((x) => !new Set(i.original).has(x)),
-            url: i.url,
-          };
-        });
 
-      const toString = JSON.stringify(Object.assign(allAddedHashtags.flat()));
-      //  const toString = JSON.stringify(allAddedHashtags).replace(/\]\[/g, ',');
+// count unique hashtags
+const sumHashtag = hashtagLines
+.map(({ keep }) => keep)
+.sort()
+.flat();
 
-       // const jsonObject = JSON.parse(toString)
+const countTags = sumHashtag.reduce((allTags, keep) => {
+if (keep in allTags) {
+  allTags[keep]++;
+} else {
+  allTags[keep] = 1;
+}
+return allTags;
+}, {});
+//console.log(countTags);
 
-       // console.log(jsonObject)
-        
-      if (toString.length > 79) {
-        //console.log(toString)
-        const arrOfDiff = [];
-        arrOfDiff.push(toString);
-        
-        const arrObj = JSON.parse(arrOfDiff);
-        //console.log(arrObj);
-        //fs.appendFileSync("./arrObj.json", JSON.stringify(arrObj, null, 1));
-      }
 
-      /*
-        .filter( i => i.length > 0)
-        .map(({ keep }) => keep)
-        .sort()
-        .flat();
-    */
-    });
-    
+// all unique hashtags
+const uniqueHashtag = [];
+allKeywords.forEach((h) => {
+if (!uniqueHashtag.includes(h)) {
+  uniqueHashtag.push(h);
+}
+});
+//console.log(uniqueHashtag);
   });
-console.log(arrayToIterate)
-/*
-  const allContent = [];
-
-  allContent.push(JSON.stringify(content))
-  //console.log(allContent)
-  allContent.split("][").map(i => {
-    return {
-      keep: i.keep,
-      url: i.url
-    }
-  })
-  console.log(allContent)
-*/
-// replace(/\]\[/g, ',')
-
 
 })();
